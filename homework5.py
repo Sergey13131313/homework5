@@ -14,6 +14,8 @@
 immutable_var = (1, True, 'Abc')
 print(type(immutable_var))
 print(immutable_var)
+# Изменить знаяение кортежа нельзя т.к. это неизменяемая коллекция
+# аналог const lValue в С
 
 mutable_list = [1, True, 'Abc']
 print(mutable_list)
